@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring-ecomm-db?createDatabaseIfNotExist=true
+    username: postgres
+    password: Jasir@1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
